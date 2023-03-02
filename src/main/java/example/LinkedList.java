@@ -22,15 +22,14 @@ public class LinkedList
     public void addElement(int value){
         if(this.rootNode == null){
             this.rootNode= new Node(value);
-            this.count++;
         }else{
             var temp = this.rootNode;
             while(temp.nextNode != null){
                 temp = temp.nextNode;
             }
             temp.nextNode = new Node(value);
-            this.count++;
         }
+        this.count++;
         logger.info("successfully Element added ");
     }
     public void removeElement(int indecx){
