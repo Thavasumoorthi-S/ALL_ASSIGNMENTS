@@ -1,4 +1,4 @@
-package org.example.example;
+package example;
 
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -37,7 +37,6 @@ public class StudentTest {
             }
             else{
                 LOGGER.info("please choose the correct choice in the above");
-                break;
             }
         }
     }

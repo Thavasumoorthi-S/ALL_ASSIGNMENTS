@@ -1,4 +1,4 @@
-package org.example.example;
+package example;
 
 import java.util.HashMap;
 import java.util.logging.Level;

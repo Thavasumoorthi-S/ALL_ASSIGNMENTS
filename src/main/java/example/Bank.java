@@ -1,4 +1,4 @@
-package org.example.example;
+package example;
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -72,7 +72,6 @@ class Bank
             }
             else{
                 LOGGER.info("please choose the correct choice in the above");
-                break;
             }
         }
 

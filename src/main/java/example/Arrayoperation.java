@@ -1,4 +1,4 @@
-package org.example.example;
+package example;
 
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -145,7 +145,6 @@ public class Arrayoperation
             }
             else{
                 logger.info("please choose correct choice in the above");
-                break;
             }
         }
     }

@@ -1,4 +1,4 @@
-package org.example.example;
+package example;
 
 import java.util.*;
 import java.util.logging.Level;
@@ -99,6 +99,9 @@ class Hashset {
                 logger.log(Level.INFO, () -> "" + map.size());
             } else if (choice == 4) {
                 break;
+            }
+            else{
+                logger.info("please choose correct option in the above");
             }
         }
     }

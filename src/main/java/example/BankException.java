@@ -1,4 +1,4 @@
-package org.example.example;
+package example;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -74,7 +74,7 @@ class BankException
                 }
                 else{
                     LOGGER.info("please choose the correct choice in the above");
-                    break;
+
                 }
             } catch (InputMismatchException e) {
                 throw new InputMismatchException("Please Enter the valid input");

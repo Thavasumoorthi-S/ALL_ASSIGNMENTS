@@ -1,6 +1,8 @@
-package org.example.example;
+package example;
+
 import java.io.IOException;
-import java.util.*;
+import java.util.InputMismatchException;
+import java.util.Scanner;
 import java.util.logging.Logger;
 public class Main {
     private static final Logger LOGGER=Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
@@ -55,7 +57,6 @@ public class Main {
                 }
                 else{
                     LOGGER.info("please choose correct choice in the above");
-                    break;
                 }
             }
                 catch (InputMismatchException e)

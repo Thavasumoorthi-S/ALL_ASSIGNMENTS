@@ -1,4 +1,4 @@
-package org.example.example;
+package example;
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.logging.Level;
@@ -195,6 +195,9 @@ public class LinkedList
             else if(choice==4)
             {
                 break;
+            }
+            else{
+                logger.info("please choose correct option in the above");
             }
         }
 

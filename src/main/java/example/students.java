@@ -1,4 +1,4 @@
-package org.example.example;
+package example;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -75,7 +75,6 @@ public class students {
                 }
                 else{
                     logger.info("please choose the correct choice in the above");
-                    break;
                 }
             }
         }
