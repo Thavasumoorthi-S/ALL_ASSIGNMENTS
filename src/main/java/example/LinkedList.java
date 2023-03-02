@@ -88,8 +88,6 @@ public class LinkedList
             choice=sc.nextInt();
             if(choice==1)
             {
-                {
-
                     int size;
                     logger.info("Enter the array size ");
                     size = sc.nextInt();
@@ -136,7 +134,6 @@ public class LinkedList
                             break;
                         }
                     }
-                }
 
             }
             else if(choice==2)
