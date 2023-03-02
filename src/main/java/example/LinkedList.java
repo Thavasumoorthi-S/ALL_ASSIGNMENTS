@@ -128,10 +128,7 @@ public class LinkedList
                         } else if (choice == 9) {
                             break;
                         }
-                        else{
-                            logger.info("please choose the correct choice in the above");
-                            break;
-                        }
+
                     }
 
             }
