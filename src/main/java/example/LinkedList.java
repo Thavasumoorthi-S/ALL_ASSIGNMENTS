@@ -98,7 +98,7 @@ public class LinkedList
             }
             else if(choice==3)
             {
-               Linkedlist();
+               linkedlist();
             }
             else if(choice==4)
             {
@@ -181,7 +181,7 @@ public class LinkedList
         list.clear();
         logger.log(Level.INFO, () -> "" + list.isEmpty());
     }
-    public static void Linkedlist()
+    public static void linkedlist()
     {
         int choice;
         LinkedList list = new LinkedList();
