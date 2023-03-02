@@ -12,6 +12,10 @@ import java.util.logging.Logger;
 
 public class Fileopds
 {
+    private  Fileopds()
+    {
+
+    }
 public static void execute() throws IOException {
     Logger logger = Logger.getLogger("com-api-jar");
     String read;
