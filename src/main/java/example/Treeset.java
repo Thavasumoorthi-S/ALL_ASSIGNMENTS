@@ -5,6 +5,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Treeset {
+
+    private Treeset()
+    {
+
+    }
     public static void execute()
     {
         Logger logger = Logger.getLogger("com-api-jar");
