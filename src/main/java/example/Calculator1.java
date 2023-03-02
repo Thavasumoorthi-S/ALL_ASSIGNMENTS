@@ -5,6 +5,10 @@ import java.util.logging.Logger;
 
 public class Calculator1
 {
+    private  Calculator1()
+    {
+
+    }
 public static void execute()
 {
     Scanner sc=new Scanner(System.in);
