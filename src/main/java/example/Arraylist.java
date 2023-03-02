@@ -4,6 +4,11 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class Arraylist {
+
+    private Arraylist()
+    {
+
+    }
     public static void execute()
     {
         Logger logger = Logger.getLogger("com-api-jar");
