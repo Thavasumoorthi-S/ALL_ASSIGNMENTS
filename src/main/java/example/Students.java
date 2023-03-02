@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.logging.Logger;
 
-public class students {
+public class Students {
         private  String name;
         private  int age;
         private  double gpa;
-        students()
+        Students()
         {
             this.name="";
             this.age=0;
@@ -46,7 +46,7 @@ public class students {
             int choice;
             int age;
             double gpa;
-            ArrayList<students> list = new ArrayList<>();
+            ArrayList<Students> list = new ArrayList<>();
             Logger logger = Logger.getLogger("com.api.jar");
             while (true) {
                 logger.info("\n1)GET NAME,AGE,GPA FROM STUDENT \n2)SORT OPERATION ON GPA\n3) DISPLAY STUDENT DETAILS \n4)EXIT");
@@ -59,7 +59,7 @@ public class students {
                     age = sc.nextInt();
                     logger.info("ENTER THE GPA 1 TO 10: ");
                     gpa = sc.nextDouble();
-                    students st = new students();
+                    Students st = new Students();
                     st.setname(name);
                     st.setage(age);
                     st.setgpa(gpa);
@@ -67,7 +67,7 @@ public class students {
                 } else if (choice == 2) {
                     list.sort((o1, o2) -> Double.compare(o2.getgpa(), o1.getgpa()));
                 } else if (choice == 3) {
-                    for (students studentData : list) {
+                    for (Students studentData : list) {
                         logger.info(studentData.getname() + " " + studentData.getage() + " " + studentData.getgpa());
                     }
                 } else if (choice == 4) {

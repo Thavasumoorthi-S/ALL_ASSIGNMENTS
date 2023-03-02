@@ -34,7 +34,7 @@ public class Main {
                     BankException.execute();
 
                 } else if (choice == 8) {
-                    students.execute();
+                    Students.execute();
                 } else if (choice == 9) {
                     LinkedList.execute();
                 } else if (choice == 10) {
