@@ -10,6 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ef9b6fe-5991-4635-b2e3-9fe21ffd9d26" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +53,27 @@
       <recent name="C:\Users\Tringapps-User8\IdeaProjects\ALL_ASSIGNMENT\src\main\java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="example.Main" />
+      <module name="ALL_ASSIGNMENT" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ALL_ASSIGNMENT.jar" type="JarApplication" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/ALL_ASSIGNMENT_jar/ALL_ASSIGNMENT.jar" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JAR Application.ALL_ASSIGNMENT.jar" />
       </list>
     </recent_temporary>
@@ -156,7 +171,28 @@
       <option name="project" value="LOCAL" />
       <updated>1677757134672</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="first commit">
+      <created>1677757489088</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677757489088</updated>
+    </task>
+    <task id="LOCAL-00014" summary="first commit">
+      <created>1677757495585</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677757495585</updated>
+    </task>
+    <task id="LOCAL-00015" summary="first commit">
+      <created>1677757706842</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677757706842</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
