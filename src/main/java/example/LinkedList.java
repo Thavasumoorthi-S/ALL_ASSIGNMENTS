@@ -106,13 +106,13 @@ public class LinkedList
                         } else if (choice == 2) {
                             ex.delete();
                         } else if (choice == 3) {
-                            logger.info("Enter the index ");
+                            logger.info("Enter the index number ");
                             index = sc.nextInt();
                             logger.info("Enter the value ");
                             element = sc.nextInt();
                             ex.insertatindex(index, element);
                         } else if (choice == 4) {
-                            logger.info("Enter the index ");
+                            logger.info("Enter  index ");
                             index = sc.nextInt();
                             ex.deleteatindex(index);
                         } else if (choice == 5) {
@@ -182,7 +182,7 @@ public class LinkedList
                     } else if (choice == 3) {
                         logger.info("Enter the  element:");
                         element = sc.nextInt();
-                        logger.info("Enter the index ");
+                        logger.info("Enter the ,index ");
                         index = sc.nextInt();
                         list.addMiddleElement(element, index);
                     } else if (choice == 4) {
