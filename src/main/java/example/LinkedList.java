@@ -80,6 +80,7 @@ public class LinkedList
         Logger logger = Logger.getLogger("com.api.jar");
         int choice;
         Scanner sc=new Scanner(System.in);
+        final String CON="Enter the index:";
         while(true)
         {
             logger.info("\n1)Array\n2)Arraylist \n3)Linkedlist \n4)Exit");
@@ -106,13 +107,13 @@ public class LinkedList
                         } else if (choice == 2) {
                             ex.delete();
                         } else if (choice == 3) {
-                            logger.info("Enter the index number ");
+                            logger.info(CON);
                             index = sc.nextInt();
                             logger.info("Enter the value ");
                             element = sc.nextInt();
                             ex.insertatindex(index, element);
                         } else if (choice == 4) {
-                            logger.info("Enter  index ");
+                            logger.info(CON);
                             index = sc.nextInt();
                             ex.deleteatindex(index);
                         } else if (choice == 5) {
@@ -176,13 +177,13 @@ public class LinkedList
                         element = sc.nextInt();
                         list.addElement(element);
                     } else if (choice == 2) {
-                        logger.info("Enter the index ");
+                        logger.info(CON);
                         index = sc.nextInt();
                         list.removeElement(index);
                     } else if (choice == 3) {
                         logger.info("Enter the  element:");
                         element = sc.nextInt();
-                        logger.info("Enter the ,index ");
+                        logger.info(CON);
                         index = sc.nextInt();
                         list.addMiddleElement(element, index);
                     } else if (choice == 4) {
