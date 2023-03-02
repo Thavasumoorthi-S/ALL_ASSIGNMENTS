@@ -6,6 +6,11 @@ import java.util.logging.Logger;
 
 public class StudentTest {
     private static final Logger LOGGER=Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
+
+    private StudentTest()
+    {
+
+    }
     public static void execute()
     {
         Scanner sc=new Scanner(System.in);
