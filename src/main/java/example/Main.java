@@ -12,8 +12,8 @@ public class Main {
             while (true) {
                 try
                 {
-                System.out.println("\n)Bank\n2)shape\n3)student\n4)singleton\n5)coordinates\n6)credit card\n7)BankException\n8)Studentdata\n9)Array,Arraylist,Linkedlist\n10)hashset,treeset,hashmap\n11)calculator\n12)studentcontacts using Linkedlist\n13)file operation \n14)Tictactoe game\n15)Exit");
-                System.out.println("Choose any one of the option in the above ");
+                LOGGER.info("\n)Bank\n2)shape\n3)student\n4)singleton\n5)coordinates\n6)credit card\n7)BankException\n8)Studentdata\n9)Array,Arraylist,Linkedlist\n10)hashset,treeset,hashmap\n11)calculator\n12)studentcontacts using Linkedlist\n13)file operation \n14)Tictactoe game\n15)Exit");
+                LOGGER.info("Choose any one of the option in the above ");
                 choice = sc.nextInt();
                 if (choice == 1) {
                     Bank.execute();
